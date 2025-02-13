@@ -156,7 +156,7 @@
     display: block;
     background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: top right;
 }
 
 .standard_section_headline{
@@ -265,4 +265,128 @@
     justify-content: center;
     align-items: center;
     font-size: 1.7rem;
+}
+.standard_circle1:hover{
+    cursor: pointer;
+    background-color: rgb(255, 190, 70);
+}
+
+
+/* Standard sec2 style */
+
+.standard_sec2{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: top ;
+    border: 2px solid #F2E8FF;
+    background-image: linear-gradient(white , #FEA301 );
+
+}
+
+.standard_sec2_headline{
+    display: flex;
+    margin: 60px auto;
+    margin-bottom: 80px;
+    font-size: 2.75rem;
+    font-weight: 700;
+    justify-content: center;
+}
+.standard_sec2_images_part{
+    display: flex;
+    margin: 0 140px;
+    margin-bottom: 80px;
+    gap: 18.73px;
+}
+
+.standard_sec2_images_big{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    width: 540px;
+    height: 630px;
+    border: 1px solid #E5E5E5;
+}
+.standard_sec2_images_big img{
+    display: block;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.standard_sec2_images_date1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 39px;
+    margin-top: -24px;
+    margin-bottom: 33.5px;
+    height: 48px;
+    width: 175px;
+    background-color: #3CD8E8;
+    border-radius: 48px;
+    padding: auto;
+
+}
+.dt{
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    padding: 14.5px 0;
+    display: flex;
+    align-content: center;
+}
+.standard_sec2_images_head1{
+    font-weight: 700;
+    width: 402.5px;
+    margin-left: 39px;
+    margin-bottom: 48px;
+    line-height: 38px;
+    font-size: 1.5rem;
+}
+.standard_sec2_images_subhead{
+    /* border-bottom: 34.5px; */
+    margin-left: 39px;
+    color: #666666;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 28.8px;
+    width: 433px;
+}
+
+
+
+
+
+
+
+.standard_sec2_image4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+
+
+.standard_sec2_view{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.standard_sec2_view_button{
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    width: 197px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.standard_sec2_view_button:hover{
+    background-color: #333;
+    cursor: pointer;
 }
