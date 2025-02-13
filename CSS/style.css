@@ -22,7 +22,12 @@
 
 
 
-
+marquee{
+    background-color: #01ACFD;
+    color: white;
+    font-weight: 700;
+    padding: 5px 0;
+}
 
 
 
@@ -56,6 +61,7 @@
  
 .nav_section ul{
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 30px;
 }
@@ -117,6 +123,12 @@
     color: black;
     background-color: rgb(255, 192, 74);
 }
+
+ hr.hr{
+    display: none;
+    border-top: 1px solid orange;
+}
+
 
 /* Main style */
 /* Heading */
@@ -551,7 +563,45 @@
     }
     .nav{
         margin: 0 auto;
+        display: flex;
     }
+    .fonta{
+        display: block;
+    }
+    .fonta span{
+        display: none;
+    }
+    .fonta:hover{
+        cursor: pointer;
+        
+    }
+    .fonta:hover span, .fonta:hover ul{
+        display: block;
+
+    }
+
+    .nav_part{
+        font-size: 20px;
+    }
+    .lii ul li{
+        gap: 0px;
+    }
+
+    .nav_heading1{
+        display: none;
+    }
+    .fonta ul{
+        /* display: none; */
+        list-style: none;
+    }
+    .fonta ul li a{
+        text-decoration: none;
+    }
+
+    .fonta ul{
+        display: none;
+    }
+
     .nav_head{
         display: flex;
     }
@@ -567,10 +617,12 @@
     .nav_icon{
         margin-top: 15px;
     }
-    .fonta{
-        display: none;
-        font-size: 30px;
+
+    hr.hr{
+        display: block;
+        border-top: 1px solid orange;
     }
+
 
     /* main */
 
